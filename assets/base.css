@@ -25,5 +25,21 @@ a:hover{
 .button:hover{
     color: #ffffff;
     background-color: var(--color-one);
-    transition: all 0.3s;
+        transition: all 0.3s;
+}
+@media (min-width: 992px){
+    .header .inner-main .inner-menu i{
+        display: none;
+    }
+}
+@media (max-width: 991.8px){
+    .header .inner-main .inner-menu ul li{
+        display: none;
+    }
+    .header .inner-main .inner-menu i{
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
 }

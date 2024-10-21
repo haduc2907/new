@@ -29,6 +29,7 @@
 .header .inner-main .inner-menu ul li a{
     color: var(--color-text);
 }
+
 .header .inner-main .inner-menu ul li .one{
     color: var(--color-two);
 }
